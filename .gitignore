@@ -1,0 +1,12 @@
+node_modules/
+cdk.out/
+dist/
+*.js
+*.d.ts
+*.js.map
+!jest.config.js
+
+.env
+.env.*
+
+package-lock.json

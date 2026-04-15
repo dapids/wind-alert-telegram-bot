@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["es2020"],
+    "types": ["node"],
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "declaration": true,
+    "inlineSourceMap": true
+  },
+  "include": ["bin", "lib", "lambda"],
+  "exclude": ["node_modules", "cdk.out", "dist"]
+}
